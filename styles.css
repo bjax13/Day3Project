@@ -1,6 +1,6 @@
 .top-section{
   position: relative;
-  width: 100%;
+  width: 100vw;
   height: 100vh;
   background: url("https://s3.amazonaws.com/www-assets.invisionapp.com/marketplace/assets/mp-hero-06.jpg");
   background-size: cover;
@@ -12,6 +12,10 @@
   flex-direction: column;
 
 
+}
+.upperSpace{
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 .svg-logo{
@@ -45,4 +49,228 @@
   color: #f36;
   border-bottom: 1px solid #f36;
 
+}
+.middle-section{
+  padding: 15px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+}
+/*.middle-section div{
+  width: 100vw;*/
+
+}
+.shirt1{
+  width: 100vw;
+  background-image: url("./img/shirts/alice-lee-homepage-tshirt-small.jpg");
+  background-size: cover;
+  background-position: center;
+
+}
+
+
+.newsletter-section{
+  width: 100%;
+  height: 30vh;
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+}
+.newsletter-cta{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.newsletter-cta-title{
+  font-size: 1rem;
+  text-transform: uppercase;
+  white-space: nowrap;
+  overflow: hidden;
+  margin-bottom: 16px;
+  letter-spacing: 1px;
+}
+.newsletter-cta-subtext{
+  font-size: .6rem;
+  text-transform: uppercase;
+  white-space: nowrap;
+  overflow: hidden;
+  letter-spacing: 1px;
+  margin-bottom: 16px;
+}
+.newsletter-email-submittion{
+  width: 100%;
+  height: 20vh;
+
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.newsletter-email-textbox{
+  padding: 15px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: gray;
+  width: 100%;
+  height: 8vh;
+  background: #fff;
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 5px;
+}
+.newsletter-email-text{
+  color: gray;
+  font-size: .8rem;
+  text-transform: uppercase;
+  white-space: nowrap;
+  overflow: hidden;
+  letter-spacing: 1px;
+  margin-bottom: 5px;
+
+}
+.newsletter-email-button{
+  width: 100%;
+  height: 8vh;
+  background: black;
+  color: white;
+  font-size: .8rem;
+  text-transform: uppercase;
+  white-space: nowrap;
+  overflow: hidden;
+  letter-spacing: 1px;
+  border: none;
+}
+
+
+.bottom-section{
+  border: none;
+  width: 100%;
+  height: 100vh;
+  background: black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+.bottom-section-top-content{
+  padding-top: 8vh;
+  position: relative;
+  height: 30vh;
+  display: flex;
+  justify-content: space-between;;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 4vh;
+
+}
+.bottom-section-byinvision{
+  margin-bottom: 10vh;
+  color: white;
+}
+.bottom-svg-badge{
+  position: relative;
+  bottom: 0;
+  width: 140px;
+}
+.bottom-section-madeby{
+
+  height: 8vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+.bottom-section-madeby-title{
+  color: white;
+  font-size: 1.4rem;
+}
+.bottom-section-madeby-subtitle{
+  color: white;
+  font-size: .8rem;
+}
+.bottom-section-nav{
+  color: white;
+  height: 30vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+.bottom-section2{
+  border: none;
+  padding: 5vh 0;
+  width: 100%;
+  height: 40vh;
+  background: black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+.bottom-section-social{
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.circle-border{
+  border: solid 1px white;
+  border-radius: 25px;
+}
+.logo-fill{
+  fill:#fff;
+}
+.bottom-address{
+  color: white;
+}
+
+
+.footer-section{
+  padding: 10px;
+  width: 100%;
+  height: 15vh;
+  background: #1a1a1a;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.footer-text{
+  color: #8d8d8d;
+  font-size: .7rem;
+  text-transform: uppercase;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.footer-button-container{
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+
+}
+.footer-button-border{
+  border-style: solid;
+  border-width: 1px;
+
+}
+.footer-section-seewhy{
+  color: #8d8d8d;
+  border-color: #8d8d8d;
+  background: #1a1a1a;
+  margin-right: 10px;
+}
+.footer-section-getstarted{
+  color:#fc688d;
+  border-color: #fc688d;
+  background: #1a1a1a;
 }
